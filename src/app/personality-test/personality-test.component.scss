@@ -1,0 +1,23 @@
+.main-content{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 10%;
+    ::ng-deep {
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+mat-progress-bar{
+    height: 28px;
+    border-radius: 24px;
+}
+.next-btn{
+    width: 144px;
+}
+.question-nmb{
+    padding-top: 8px;
+}

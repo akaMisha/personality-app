@@ -1,0 +1,11 @@
+<div class="main-content">
+    <div *ngIf='!finalResult.value'>
+        <mat-progress-bar color='accent' mode="determinate" [value]="questionNmb*20" max-value='5'></mat-progress-bar>
+        <h1 class='question-nmb'>QUESTION {{questionNmb}} OF 5</h1>
+        <app-question class="main-content" [question]='currentQuestion' (answerScore)='updateCurrentAnswerScore($event)'></app-question>
+        <button mat-raised-button class='next-btn' (click)="nextQuestion()">Next</button>
+    </div>
+    <div class='main-content' *ngIf='finalResult.value'>
+        <h1>Congratulations you are {{finalResult.description}} !</h1>
+    </div>
+</div>

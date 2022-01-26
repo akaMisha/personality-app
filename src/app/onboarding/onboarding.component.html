@@ -1,0 +1,18 @@
+<div class="main-content">
+    <div *ngIf="!userNickname">
+        <h1>Can you kindly share with us your nickname?</h1>
+        <form [formGroup]="nicknameFormGroup">
+            <mat-form-field appearance="legacy">
+            <input matInput formControlName="nickname" placeholder="Whats my nickname?">
+            </mat-form-field>
+        </form>
+        <button mat-raised-button (click)="checkNickname()">Next</button>
+    </div>
+    <div *ngIf="userNickname">
+        <h1>Hello {{userNickname}} and welcome to our personality test!</h1>
+        <h3>So do you consider yourself more of an introvert or an extrovert? Take this test and find out!</h3>
+        <button mat-fab class='fab' color="accent" routerLink="/test">
+            <mat-icon>arrow_forward</mat-icon>
+        </button>
+    </div>
+</div>
