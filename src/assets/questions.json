@@ -1,0 +1,135 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "description": "You’re really busy at work and a colleague is telling you their life story and personal woes. You:",
+      "answers": [
+        { "description": "Don’t dare to interrupt them", "value": 1 },
+        {
+          "description": "Think it’s more important to give them some of your time; work can wait",
+          "value": 2
+        },
+        { "description": "Listen, but with only with half an ear", "value": 3 },
+        {
+          "description": "Interrupt and explain that you are really busy at the moment",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "When faced with a challenging problem, you tend to:",
+      "answers": [
+        {
+          "description": "Analyze it thoroughly before taking any action",
+          "value": 1
+        },
+        {
+          "description": "Seek advice from others before making a decision",
+          "value": 2
+        },
+        {
+          "description": "Trust your instincts and make a quick decision",
+          "value": 3
+        },
+        {
+          "description": "Avoid the problem and hope it goes away on its own",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "In social situations, you are more likely to be:",
+      "answers": [
+        {
+          "description": "The listener who enjoys hearing others' stories",
+          "value": 1
+        },
+        {
+          "description": "The talkative one who initiates conversations",
+          "value": 2
+        },
+        {
+          "description": "The observer who prefers to stay in the background",
+          "value": 3
+        },
+        {
+          "description": "The one who avoids social gatherings altogether",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "description": "How do you handle stress?",
+      "answers": [
+        {
+          "description": "Stay calm and focused, finding solutions step by step",
+          "value": 1
+        },
+        {
+          "description": "Seek support and talk to friends or family about it",
+          "value": 2
+        },
+        {
+          "description": "Keep busy and distract yourself from the stressor",
+          "value": 3
+        },
+        {
+          "description": "Become irritable and struggle to cope with stress",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "description": "When faced with change or uncertainty, you tend to:",
+      "answers": [
+        {
+          "description": "Embrace it and see it as an opportunity for growth",
+          "value": 1
+        },
+        {
+          "description": "Feel apprehensive but try to adapt and learn from it",
+          "value": 2
+        },
+        {
+          "description": "Resist it and prefer to stick with the familiar",
+          "value": 3
+        },
+        {
+          "description": "Become anxious and struggle to cope with change",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": 1,
+      "title": "The Patient Listener",
+      "description": "You are a patient and empathetic listener who values others' feelings and stories. You tend to prioritize interpersonal relationships and offer support to those in need."
+    },
+    {
+      "id": 2,
+      "title": "The Thoughtful Decision Maker",
+      "description": "You are a thoughtful and analytical decision-maker who values careful consideration and seeking advice when facing challenges. You aim to make well-informed choices."
+    },
+    {
+      "id": 3,
+      "title": "The Social Observer",
+      "description": "You are an observant individual who prefers to stay in the background during social situations. You may not be the most talkative, but you notice details and nuances others may miss."
+    },
+    {
+      "id": 4,
+      "title": "The Stress Reactor",
+      "description": "You tend to have a more challenging time handling stress, which can lead to irritability and difficulty coping. It's essential to find healthier ways to manage stress."
+    },
+    {
+      "id": 5,
+      "title": "The Change Resister",
+      "description": "You may find it challenging to adapt to change and uncertainty, often preferring the familiar. Embracing change as an opportunity for growth could be beneficial."
+    }
+  ]
+}

@@ -1,4 +1,13 @@
-<h1>{{question.description}}</h1>
-<mat-radio-group class='radio-group' aria-label="Select your answer">
-    <mat-radio-button class='radio-button' *ngFor='let answer of question.answers' [value]='answer.value' (change)='radioChange($event)'>{{answer.description}}</mat-radio-button>
+<h1>{{ question?.description }}</h1>
+<mat-radio-group class="radio-group" aria-label="Select your answer">
+  <mat-radio-button
+    class="radio-button"
+    *ngFor="let answer of question?.answers"
+    [value]="answer.value"
+    (change)="radioChange($event)"
+  >
+    <mat-label class="mat-radio-label-content">{{
+      answer.description
+    }}</mat-label>
+  </mat-radio-button>
 </mat-radio-group>
